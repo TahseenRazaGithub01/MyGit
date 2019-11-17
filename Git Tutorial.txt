@@ -1,0 +1,55 @@
+git hub tutorials ..
+
+git config --global user.name Tahseen Raza
+git config --global user.email tahseen.raza@stallyons.com
+git config --list
+pwd (main directory)
+git init
+
+git add .
+git git commit -m "This is our first commit"
+
+git log (commit detail)
+git log --author="Tahseen" (get all this author commit)
+git status (Campare repository directory status)
+git add second.txt (add only second.txt file)
+git commit -m "Adding the second file to the repository"
+git diff (check view changing file)
+git diff --stage(Comparing the Staging Area with the Repository)
+git rm third.txt (How to Delete Files)
+git mv second.txt pudding.txt (Rename second.txt to pudding.txt file)
+
+FOR NEW PROJECT 
+goto root directory
+git init (Initialize git)
+git add . 
+git commit -m "Message"
+git commit -am "Message" (Add and Commit both in this command)
+
+git checkout -- index.html (Changes without commit in stage -) 
+git reset HEAD index.html (Unstage Files, put file name where index.html)
+git log
+git checkout 01e7dba -- index.html (Getting Old Versions from the Repository, put file name, enter some id character, id color is yellow)
+
+THEN CREATE GIT HUB ACCOUNT and Create Repository.
+git remote add githubTesting https://github.com/TahseenRazaSty/testing.git
+git remote
+git push -u githubTesting master (Pushing to a GitHub Repository)
+NOW ENTER USERNAME OR EMAIL, AND PASSWORD .
+
+git branch dev_tahseen (Create new branch)
+
+git checkout dev_tahseen (swith branch)
+
+git commit -m "Message"
+git push origin dev_tahseen
+
+git checkout master (Move to Checkout)
+git merge dev_tahseen
+and then merge master to my branch
+git checkout dev_tahseen
+git merge master
+
+now git checkout dev_tahseen
+current directory
+
